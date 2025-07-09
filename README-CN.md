@@ -1,5 +1,7 @@
 # scoda-ddd-starter
 
+[English](README.md) | [中文文档](README-CN.md)
+
 [![Maven Central](https://img.shields.io/maven-central/v/com.scoda/scoda-ddd-starter.svg)](https://search.maven.org/artifact/com.scoda/scoda-ddd-starter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Java](https://img.shields.io/badge/Java-8+-blue.svg)](https://www.oracle.com/java/)
@@ -29,7 +31,7 @@
 
 ```xml
 <dependency>
-    <groupId>com.scoda</groupId>
+    <groupId>com.trieai.scoda</groupId>
     <artifactId>scoda-ddd-starter</artifactId>
     <version>1.0.1</version>
 </dependency>
@@ -38,7 +40,7 @@
 ### Gradle
 
 ```gradle
-implementation 'com.scoda:scoda-ddd-starter:1.0.1'
+implementation 'com.trieai.scoda:scoda-ddd-starter:1.0.1'
 ```
 
 ## 项目结构
