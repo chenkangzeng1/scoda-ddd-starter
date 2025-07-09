@@ -31,14 +31,14 @@ A Spring Boot starter for Domain-Driven Design (DDD) with CQRS, event-driven arc
 <dependency>
     <groupId>com.scoda</groupId>
     <artifactId>scoda-ddd-starter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
 ### Gradle
 
 ```gradle
-implementation 'com.scoda:scoda-ddd-starter:1.0.0'
+implementation 'com.scoda:scoda-ddd-starter:1.0.1'
 ```
 
 ## Project Structure
@@ -205,7 +205,7 @@ public class UserNotFoundException extends BaseException {
 
 If you're upgrading from a SNAPSHOT version:
 
-1. Update your dependency version to `1.0.0`
+1. Update your dependency version to `1.0.1`
 2. No breaking changes are expected
 3. Review the changelog for any new features
 
@@ -223,8 +223,8 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## Changelog
 
-### [1.0.0] - 2024-01-01
-- Initial release
+### [1.0.1] - 2024-01-01
+- 首个正式版本（Initial release）
 - CQRS support with command/query buses
 - Domain event abstractions
 - Spring Boot auto-configuration
@@ -249,3 +249,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Spring Boot team for the excellent framework
 - Domain-Driven Design community for the architectural patterns
+
+[English](README.md) | [中文文档](README-CN.md)

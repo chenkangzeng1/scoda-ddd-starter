@@ -31,14 +31,14 @@
 <dependency>
     <groupId>com.scoda</groupId>
     <artifactId>scoda-ddd-starter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
 ### Gradle
 
 ```gradle
-implementation 'com.scoda:scoda-ddd-starter:1.0.0'
+implementation 'com.scoda:scoda-ddd-starter:1.0.1'
 ```
 
 ## 项目结构
@@ -205,7 +205,7 @@ public class UserNotFoundException extends BaseException {
 
 如果您正在从SNAPSHOT版本升级：
 
-1. 将依赖版本更新为 `1.0.0`
+1. 将依赖版本更新为 `1.0.1`
 2. 预计不会有破坏性变更
 3. 查看更新日志了解新功能
 
@@ -223,8 +223,8 @@ public class UserNotFoundException extends BaseException {
 
 ## 更新日志
 
-### [1.0.0] - 2024-01-01
-- 初始发布
+### [1.0.1] - 2024-01-01
+- 首个正式版本（初始发布）
 - 支持CQRS的命令/查询总线
 - 领域事件抽象
 - Spring Boot自动配置
