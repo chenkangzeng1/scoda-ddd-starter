@@ -251,3 +251,11 @@ public class UserNotFoundException extends BaseException {
 
 - Spring Boot团队提供的优秀框架
 - 领域驱动设计社区的架构模式 
+
+## 版本兼容性
+
+| scoda-ddd-starter 版本 | 支持的 Spring Boot 版本      |
+|-----------------------|------------------------------|
+| 1.0.1                 | 2.3.12.RELEASE               |
+| 1.0.2                 | 2.7.18                       |
+| 1.1.0                 | 3.2.12                       | 

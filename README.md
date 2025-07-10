@@ -226,7 +226,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ## Changelog
 
 ### [1.0.1] - 2024-01-01
-- 首个正式版本（Initial release）
+- origin version （Initial release）
 - CQRS support with command/query buses
 - Domain event abstractions
 - Spring Boot auto-configuration
@@ -251,3 +251,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Spring Boot team for the excellent framework
 - Domain-Driven Design community for the architectural patterns
+
+## Version Compatibility
+
+| scoda-ddd-starter Version | Supported Spring Boot Version |
+|--------------------------|-------------------------------|
+| 1.0.1                    | 2.3.12.RELEASE                |
+| 1.0.2                    | 2.7.18                        |
+| 1.1.0                    | 3.2.12                        |
