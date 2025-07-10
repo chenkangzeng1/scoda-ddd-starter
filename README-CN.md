@@ -22,7 +22,7 @@
 ## 系统要求
 
 - Java 8 或更高版本
-- Spring Boot 2.3.12.RELEASE 或更高版本
+- Spring Boot 2.3.12.RELEASE 或更高版本（推荐2.7.18）
 - Maven 3.6+ 或 Gradle 6+
 
 ## 安装
@@ -31,9 +31,9 @@
 
 ```xml
 <dependency>
-    <groupId>com.trieai.scoda</groupId>
+    <groupId>com.scoda</groupId>
     <artifactId>scoda-ddd-starter</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 </dependency>
 ```
 

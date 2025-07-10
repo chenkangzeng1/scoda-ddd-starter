@@ -22,7 +22,7 @@ A Spring Boot starter for Domain-Driven Design (DDD) with CQRS, event-driven arc
 ## Requirements
 
 - Java 8 or higher
-- Spring Boot 2.3.12.RELEASE or higher
+- Spring Boot 2.3.12.RELEASE or higher (Recommended: 2.7.18)
 - Maven 3.6+ or Gradle 6+
 
 ## Installation
@@ -33,7 +33,7 @@ A Spring Boot starter for Domain-Driven Design (DDD) with CQRS, event-driven arc
 <dependency>
     <groupId>com.trieai.scoda</groupId>
     <artifactId>scoda-ddd-starter</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 </dependency>
 ```
 
