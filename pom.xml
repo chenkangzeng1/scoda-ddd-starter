@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.trieai.scoda</groupId>
     <artifactId>scoda-ddd-starter</artifactId>
-    <version>1.0.2</version>
+    <version>1.1.0</version>
     <packaging>jar</packaging>
     <name>scoda-ddd-starter</name>
     <description>
@@ -13,7 +13,7 @@ A Spring Boot starter that provides a complete foundation for implementing Domai
 </description>
     <properties>
         <java.version>1.8</java.version>
-        <spring-boot.version>2.7.18</spring-boot.version>
+        <spring-boot.version>3.2.12</spring-boot.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>

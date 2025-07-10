@@ -33,14 +33,14 @@
 <dependency>
     <groupId>com.scoda</groupId>
     <artifactId>scoda-ddd-starter</artifactId>
-    <version>1.0.2</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 
 ### Gradle
 
 ```gradle
-implementation 'com.trieai.scoda:scoda-ddd-starter:1.0.1'
+implementation 'com.trieai.scoda:scoda-ddd-starter:1.1.0'
 ```
 
 ## 项目结构
@@ -207,7 +207,7 @@ public class UserNotFoundException extends BaseException {
 
 如果您正在从SNAPSHOT版本升级：
 
-1. 将依赖版本更新为 `1.0.1`
+1. 将依赖版本更新为 `1.1.0`
 2. 预计不会有破坏性变更
 3. 查看更新日志了解新功能
 
@@ -258,4 +258,4 @@ public class UserNotFoundException extends BaseException {
 |-----------------------|------------------------------|
 | 1.0.1                 | 2.3.12.RELEASE               |
 | 1.0.2                 | 2.7.18                       |
-| 1.1.0                 | 3.2.12                       | 
+| 1.1.0                 | 3.2.12                       |
