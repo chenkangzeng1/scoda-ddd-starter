@@ -31,7 +31,7 @@
 
 ```xml
 <dependency>
-    <groupId>com.scoda</groupId>
+    <groupId>com.trieai.scoda</groupId>
     <artifactId>scoda-ddd-starter</artifactId>
     <version>1.0.2</version>
 </dependency>
